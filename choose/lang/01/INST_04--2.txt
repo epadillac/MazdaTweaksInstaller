@@ -1,0 +1,2 @@
+; install "date_to_statusbar_mod_by_diginix"
+It looks so much better!

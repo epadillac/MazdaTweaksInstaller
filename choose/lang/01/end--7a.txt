@@ -1,0 +1,2 @@
+; end install
+- you get: german version (kmh)

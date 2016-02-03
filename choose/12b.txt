@@ -1,0 +1,7 @@
+# change order of the audio source list (without no-more-disclaimer tweak)
+if [ ! -e /jci/gui/apps/system/js/systemApp.js.org ]
+	then
+		cp -a /jci/gui/apps/system/js/systemApp.js /jci/gui/apps/system/js/systemApp.js.org
+fi
+cp -a /mnt/sd*/config/change_audio_order/only_change_audio_order/jci/gui/apps/system/js/systemApp.js /jci/gui/apps/system/js/
+

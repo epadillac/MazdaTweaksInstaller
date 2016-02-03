@@ -1,0 +1,3 @@
+# change background image
+cp -a /mnt/sd*/config/background.png /jci/gui/common/images/
+

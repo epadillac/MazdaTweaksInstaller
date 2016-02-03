@@ -1,0 +1,2 @@
+; test
+Zuerst wird ein Voll-Backup des Systems auf die SD-Karte kopiert!

@@ -1,0 +1,2 @@
+; test
+Touchscreen wird waehrend der Fahrt wieder deaktiviert

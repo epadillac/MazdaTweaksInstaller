@@ -1,0 +1,2 @@
+; end deinstall
+Remove main menu loop

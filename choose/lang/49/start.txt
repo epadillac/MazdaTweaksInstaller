@@ -1,0 +1,10 @@
+       ####                                                             ####
+       ####                     Triff Deine Auswahl:                    ####
+       ####                                                             ####
+       ####  [1] Erzeuge USB Stick fuer Installation                    ####
+       ####  [2] Erzeuge USB Stick fuer Deinstallation                  ####
+       ####                                                             ####
+       ####  [3] Erzeuge USB Stick f. Installation   inkl. Voll-Backup  ####
+       ####  [4] Erzeuge USB Stick f. Deinstallation inkl. Voll-Backup  ####
+       ####                                                             ####
+       #####################################################################

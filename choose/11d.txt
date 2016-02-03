@@ -1,0 +1,4 @@
+# remove media order patching
+rm -f /jci/lib/libmc_user.so.org
+cp -a /mnt/sd*/config_org/media-order-patching/jci/lib/libmc_user.so /jci/lib/
+

@@ -1,0 +1,4 @@
+; test
+Speedcam Daten fuer Deutschland ohne mobile Kameras wird installiert.
+.
+Bitte die SD Karte waehrend der Installation im Auto lassen!

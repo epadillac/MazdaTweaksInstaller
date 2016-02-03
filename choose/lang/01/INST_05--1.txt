@@ -1,0 +1,11 @@
+; custom infotainment colors
+#######################################
+####                               ####
+####  Custom infotainment colors   #### 
+####             with              ####
+#### own background image inside   ####
+####                               ####
+####  blue, green, orange, pink,   ####
+####  purple, silver, wellow       ####
+####                               ####
+#######################################

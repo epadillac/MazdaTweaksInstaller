@@ -1,0 +1,3 @@
+Auf welchen Laufwerksbuchstaben soll ich kopieren?
+.
+(Eingabe des LW-Buchstabens mit oder ohne Doppelpunkt - ist egal)

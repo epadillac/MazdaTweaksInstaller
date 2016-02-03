@@ -1,0 +1,2 @@
+; test
+Der nervige Text am unteren Rand wird wieder eingeblendet.

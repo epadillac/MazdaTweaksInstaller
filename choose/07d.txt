@@ -1,0 +1,4 @@
+# remove semi-transparent parking sensor graphics for the proximity sensors
+cp -a /mnt/sd*/config_org/transparent-parking-sensor/jci/nativegui/images/VerticalSensors/*  /jci/nativegui/images/VerticalSensors/
+cp -a /mnt/sd*/config_org/transparent-parking-sensor/jci/nativegui/images/HorizontalSensors/*  /jci/nativegui/images/HorizontalSensors/
+

@@ -1,0 +1,4 @@
+; end copy
+On which drive letter should I copy?
+.
+(doesn't matter whether the entry is made with or without colon)

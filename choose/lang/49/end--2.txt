@@ -1,0 +1,2 @@
+; test
+Touchscreen wird dauerhaft aktiviert

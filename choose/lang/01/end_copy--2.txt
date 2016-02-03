@@ -1,0 +1,3 @@
+; end copy
+The followoing removable drives are available:
+----------------------------------------------

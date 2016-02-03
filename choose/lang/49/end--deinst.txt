@@ -1,0 +1,13 @@
+; test
+########################################################
+####                                                ####
+####  Individuelle Deinstallations-Datei            ####
+####  nach Deiner Zusammenstellung erzeugt          ####
+####                                                ####
+####  Bitte den Inhalt auf einen USB Stick kopieren ####
+####  um die ausgewaehlten Tweaks zu entfernen      ####
+####                                                ####
+########################################################
+.
+Du moechtest folgende tweaks entfernen:
+---------------------------------------

@@ -1,0 +1,6 @@
+# change to english version, still kmh
+cp -a /mnt/sd*/config/speed-video-reboot/kmh_eng/jci/gui/addon-speedometer/addon-speedometer.html /jci/gui/addon-speedometer/
+cp -a /mnt/sd*/config/speed-video-reboot/kmh_eng/jci/gui/addon-speedometer/addon-speedometer.css /jci/gui/addon-speedometer/
+cp -a /mnt/sd*/config/speed-video-reboot/kmh_eng/jci/gui/addon-speedometer/addon-speedometer.js /jci/gui/addon-speedometer/
+cp -a /mnt/sd*/config/speed-video-reboot/kmh_eng/jci/scripts/get-gps-data.sh /jci/scripts/
+

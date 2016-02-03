@@ -1,0 +1,2 @@
+; test
+Der leere Album-Cover Rahmen wird entfernt

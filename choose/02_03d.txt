@@ -1,0 +1,4 @@
+# restore safety warning from reverse camera
+cp -a /mnt/sd*/config_org/safety-warning-reverse-camera/jci/nativegui/images/SafetyText_US_English.png /jci/nativegui/images/
+cp -a /mnt/sd*/config_org/safety-warning-reverse-camera/jci/nativegui/images/SafetyText_DE_German.png /jci/nativegui/images/
+

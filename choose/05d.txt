@@ -1,0 +1,3 @@
+# remove custom infotainment colors - back to original red scheme
+cp -R /mnt/sd*/config_org/color-schemes/red/jci /
+

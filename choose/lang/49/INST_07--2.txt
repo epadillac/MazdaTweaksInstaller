@@ -1,0 +1,3 @@
+; test
+Halbtransparente Park-Sensor-Grafiken fuer Naeherungssensoren
+werden installiert. Gute Wahl!

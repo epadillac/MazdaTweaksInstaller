@@ -1,0 +1,8 @@
+; end copy
+#########################################################
+#                                                       #
+# Should I copy the data directly to an USB drive card? #
+#                                                       #
+#########################################################
+.
+(Please delete USB drive previously!)

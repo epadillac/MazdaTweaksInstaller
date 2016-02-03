@@ -1,0 +1,2 @@
+; enable touchscreen
+Enable the touchscreen while moving?

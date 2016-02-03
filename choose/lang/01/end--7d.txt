@@ -1,0 +1,2 @@
+; end install
+- with speedometer and media player

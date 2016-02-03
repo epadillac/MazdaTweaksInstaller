@@ -1,0 +1,2 @@
+; end install
+Speedcam patch (for 56.00.230A), Europe w/o mobile cams

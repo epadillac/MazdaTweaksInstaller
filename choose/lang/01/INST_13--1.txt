@@ -1,0 +1,18 @@
+; install "speedcam patch (only for 56.00.230A)"
+########################################################
+####                                                ####
+####      Speedcam patch (only for 56.00.230A)      ####
+####                                                ####
+####                  Databases for                 ####
+####                Europe or Germany               ####
+####                                                ####
+####                 with or without                ####
+####                 mobile cameras                 ####
+####                                                ####
+####   [n] do not install                           ####
+####   [1] install for Europe with mobile cameras   ####
+####   [2] install for Europe without mob. cameras  ####
+####   [3] install for Germany with mobile cameras  ####
+####   [4] install for Germany without mob. cameras ####
+####                                                ####
+########################################################

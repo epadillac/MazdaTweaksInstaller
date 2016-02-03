@@ -1,0 +1,2 @@
+; test
+Halbtransparente Park-Sensor-Grafiken fuer Naeherungssensoren zuruecksetzen?

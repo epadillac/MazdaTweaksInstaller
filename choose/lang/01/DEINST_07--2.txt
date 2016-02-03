@@ -1,0 +1,2 @@
+; Remove semi-transparent parking sensor graphics
+Did you not like it?

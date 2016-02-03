@@ -1,0 +1,2 @@
+; restore disclaimer and audio source list
+Disclaimer enabled with 3.5 seconds and audio list back to original.

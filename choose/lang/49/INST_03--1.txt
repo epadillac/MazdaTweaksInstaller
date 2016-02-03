@@ -1,0 +1,13 @@
+; test
+########################################################
+####                                                ####
+####  Speed-video-reboot_tweak_v3.5_mod_by_diginix  ####
+####                                                ####
+####   Verschiedene Installationen moeglich fuer    ####
+####         deutsch / englisch / kph / mph         ####
+####                                                ####
+####     - Speedometer  (auch einzeln moeglich)     ####
+####     - Media player (auch einzeln moeglich)     ####
+####     - Reboot button                            ####
+####                                                ####
+########################################################

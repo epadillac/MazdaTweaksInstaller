@@ -1,0 +1,2 @@
+; install "date_to_statusbar_mod_by_diginix"
+Install "date_to_statusbar_mod_by_diginix_v2.1"?

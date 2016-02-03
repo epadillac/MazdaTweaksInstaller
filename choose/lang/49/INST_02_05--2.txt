@@ -1,0 +1,2 @@
+; test
+(Bitte im Verzeichnis 'config' vorher die Datei 'background.png' austauschen)

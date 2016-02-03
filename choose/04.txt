@@ -1,0 +1,27 @@
+# date_to_statusbar_mod_by_diginix_v2
+if [ ! -e /jci/gui/common/controls/StatusBar/css/StatusBarCtrl.css.org ]
+	then
+		cp -a /jci/gui/common/controls/StatusBar/css/StatusBarCtrl.css /jci/gui/common/controls/StatusBar/css/StatusBarCtrl.css.org
+fi
+cp -a /mnt/sd*/config/date-to-statusbar_mod/jci/gui/common/controls/StatusBar/css/StatusBarCtrl.css /jci/gui/common/controls/StatusBar/css/
+
+if [ ! -e /jci/gui/common/controls/StatusBar/js/StatusBarCtrl.js.org ]
+	then
+		cp -a /jci/gui/common/controls/StatusBar/js/StatusBarCtrl.js /jci/gui/common/controls/StatusBar/js/StatusBarCtrl.js.org
+fi
+cp -a /mnt/sd*/config/date-to-statusbar_mod/jci/gui/common/controls/StatusBar/js/StatusBarCtrl.js /jci/gui/common/controls/StatusBar/js/
+
+if [ ! -e /jci/gui/common/images/icons/IcnSbRoaming.png.org ]
+	then
+		cp -a /jci/gui/common/images/icons/IcnSbRoaming.png /jci/gui/common/images/icons/IcnSbRoaming.png.org
+fi
+cp /mnt/sd*/config/date-to-statusbar_mod/jci/gui/common/images/icons/IcnSbRoaming.png /jci/gui/common/images/icons/
+
+if [ ! -e /jci/gui/framework/js/Utility.js.org ]
+	then
+		cp -a /jci/gui/framework/js/Utility.js /jci/gui/framework/js/Utility.js.org
+fi
+cp -a /mnt/sd*/config/date-to-statusbar_mod/jci/gui/framework/js/Utility.js /jci/gui/framework/js/
+
+
+

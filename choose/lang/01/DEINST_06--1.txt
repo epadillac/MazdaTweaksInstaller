@@ -1,0 +1,2 @@
+; Remove "pause on mute"
+Remove "pause on mute"?

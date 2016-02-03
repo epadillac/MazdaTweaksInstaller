@@ -1,0 +1,2 @@
+; reduce disclaimer time
+Disclaimer time will be reduced from 3,5 seconds to 0,5 seconds

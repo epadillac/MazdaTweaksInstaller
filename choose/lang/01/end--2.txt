@@ -1,0 +1,2 @@
+; end install
+Touchscreen will be always enabled

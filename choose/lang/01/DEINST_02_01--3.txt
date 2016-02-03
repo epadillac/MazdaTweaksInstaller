@@ -1,0 +1,2 @@
+; disable touchscreen
+Touchscreen will be disabled during driving now.

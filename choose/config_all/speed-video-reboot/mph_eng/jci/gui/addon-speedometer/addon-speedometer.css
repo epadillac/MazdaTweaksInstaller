@@ -1,0 +1,415 @@
+div.flot-tick-label {
+    color: #999999;
+    font-family: Verdana;
+    font-size: 12px;
+}
+#speedometerContainer {
+    font-family:'myfont',verdana;
+    top:64px;
+    right:0;
+    bottom:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index:20001;
+    position:absolute;
+    background-image: url('speedometer_background.jpg');
+}
+#speedometerMainDiv {
+    width: 750px;
+    height: 416px;
+    top: 15px;
+    left: 10px;
+    position: absolute;
+}
+#speedometerBG {
+    left: 1px;
+    bottom: 0px;
+    width: 496px;
+    height: 416px;
+    background: url('bg_transp.png') no-repeat scroll 0 0;
+    position:absolute;
+    z-index: 100;
+}
+#speedometerDial {
+    left: 110px;
+    bottom: 62px;
+    width: 278px;
+    height: 241px;
+    background: url('Ticks_Style04_mph.png') no-repeat scroll 0 0;
+    background-size: 100% 93.7%;
+    position:absolute;
+    z-index: 101;
+}
+#speedCurrentIndicator {
+    width: 25px;
+    height: 310px;
+    background: url('NeedlePointer.png') no-repeat scroll center center transparent;
+    left: 237px;
+    position: absolute;
+    bottom: 7px;
+    z-index: 103;
+}
+#gpsCompassBG {
+    position: absolute;
+    left: 139px;
+    bottom: 53px;
+    width: 220px;
+    height: 220px;
+    background: url('compass_bg_divider.png') no-repeat scroll center center transparent;
+    transform: rotate(0deg);
+    z-index: 102;
+}
+#gpsCompass {
+    /*mathematical center*/
+/*
+    height: 180px;
+    left: 159px;
+    width: 180px;
+*/
+    position: relative;
+    top: 21px;
+    left: 21px;
+    width: 179px;
+    height: 179px;
+    z-index: 102;
+    /*background: url('compass_divider.png') no-repeat scroll center center transparent;*/
+}
+#speedCurrent {
+    position: absolute;
+    left: 139px;
+    bottom: 53px;
+    width: 220px;
+    height: 220px;
+    background: url('currentSpeed.png') no-repeat scroll center center transparent;
+    color: #FFFFFF;
+    font-size: 40px;
+    line-height: 217px;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+    z-index: 104;
+}
+#gpsCompass * {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    /*display: inline-block;*/
+    font-size: 20px;
+    color: #DDDDDD;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    line-height: 20px;
+}
+#gpsCompass .small {
+    width: 30px;
+    font-size: 16px;
+    color: #BBBBBB;
+    line-height: 22px;
+}
+#gpsCompass .North {
+    top: 0px;
+    left: 78px;
+    color: #FFFFFF;
+    transform: rotate(0deg);
+}
+#gpsCompass .NorthEast {
+    top: 24px;
+    left: 128px;
+    transform: rotate(45deg);
+}
+#gpsCompass .East {
+    top: 78px;
+    right: 0px;
+    transform: rotate(90deg);
+}
+#gpsCompass .SouthEast {
+    bottom: 24px;
+    left: 127px;
+    transform: rotate(135deg);
+}
+#gpsCompass .South {
+    bottom: 0px;
+    left: 78px;
+    transform: rotate(180deg);
+}
+#gpsCompass .SouthWest {
+    bottom: 24px;
+    left: 20px;
+    transform: rotate(225deg);
+}
+#gpsCompass .West {
+    top: 78px;
+    left: 0px;
+    transform: rotate(270deg);
+}
+#gpsCompass .NorthWest {
+    top: 24px;
+    left: 20px;
+    transform: rotate(315deg);
+}
+#gpsHeadingAngle {
+    color: #ffffff;
+    font-size: 18px;
+    left: 120px;
+    position: absolute;
+    text-align: right;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    top: 62px;
+    width: 100px;
+    z-index: 106;
+}
+fieldset {
+    border: 1px solid #444444;
+    border-width: 0px 0px 1px 0px;
+    padding: 10px 0 12px;
+    margin: 0;
+    position: absolute;
+    right: 0px;
+    height: 30px;
+    color: #999999;
+    text-align: right;
+    width: 230px;
+}
+fieldset legend {
+    color: #BBBBBB;
+    float: left;
+    font-size: 20px;
+    margin-top: 9px;
+    padding: 0px;
+}
+fieldset legend span{
+    font-size: 16px;
+}
+#gpsSpeedFieldSet {
+    top: 12px;
+}
+#speedTopFieldSet {
+    top: 53px;
+}
+#speedAvgFieldSet {
+    top: 94px;
+}
+#gpsAltitudeFieldSet {
+    top: 135px;
+}
+#gpsHeadingFieldSet {
+    top: 176px;
+    display: none;
+}
+#gpsLatitudeFieldSet {
+    top: 176px;
+}
+#gpsLongitudeFieldSet {
+    top: 217px;
+}
+#tripTimeFieldSet {
+    top: 258px;
+}
+#idleTimeFieldSet {
+    top: 299px;
+}
+#Drv1AvlFuelEFieldSet {
+    border: none;
+    top: 340px;
+}
+#speedTopValue, #speedAvgValue, #tripTimeValue, #idleTimeValue, #Drv1AvlFuelEValue, #gpsSpeedValue, #gpsAltitudeValue, #gpsHeadingValue, #gpsLatitudeValue, #gpsLongitudeValue {
+    color: #EEEEEE;
+    margin: 5px 0 0 0;
+    font-size: 24px;
+}
+#speedUnit {
+    position: relative;
+    left: 0;
+    top: 368px;
+    color: #999999;
+    font-size: 12px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+#textSpeed0, #textSpeed20, #textSpeed40, #textSpeed60, #textSpeed80, #textSpeed100, #textSpeed120, #textSpeed140, #textSpeed160, #textSpeed180, #textSpeed200, #textSpeed220, #textSpeed240 {
+    position: absolute;
+    z-index: 101;
+    color: #CCCCCC;
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+#textSpeed0 {
+    color: #666666;
+    left: 108px;
+    top: 320px;
+}
+#textSpeed20 {
+    left: 73px;
+    top: 265px;
+}
+#textSpeed40 {
+    left: 73px;
+    top: 209px;
+}
+#textSpeed60 {
+    left: 91px;
+    top: 158px;
+}
+#textSpeed80 {
+    left: 126px;
+    top: 114px;
+}
+#textSpeed100 {
+    left: 176px;
+    top: 88px;
+}
+#textSpeed120 {
+    left: 233px;
+    top: 79px;
+}
+#textSpeed140 {
+    left: 288px;
+    top: 88px;
+}
+#textSpeed160 {
+    left: 341px;
+    top: 114px;
+}
+#textSpeed180 {
+    left: 376px;
+    top: 158px;
+}
+#textSpeed200 {
+    left: 393px;
+    top: 209px;
+}
+#textSpeed220 {
+    left: 393px;
+    top: 265px;
+}
+#textSpeed240 {
+    left: 375px;
+    top: 320px;
+}
+[class*="speedBarKph_"]{
+    height: 6px;
+    margin-top: 2px;
+    border-top: 0px !important;
+}
+.speed0   {transform: rotate(-120deg);}
+.speed1   {transform: rotate(-118deg);}
+.speed2   {transform: rotate(-116deg);}
+.speed3   {transform: rotate(-114deg);}
+.speed4   {transform: rotate(-112deg);}
+.speed5   {transform: rotate(-110deg);}
+.speed6   {transform: rotate(-108deg);}
+.speed7   {transform: rotate(-106deg);}
+.speed8   {transform: rotate(-104deg);}
+.speed9   {transform: rotate(-102deg);}
+.speed10  {transform: rotate(-100deg);}
+.speed11  {transform: rotate(-98deg);}
+.speed12  {transform: rotate(-96deg);}
+.speed13  {transform: rotate(-94deg);}
+.speed14  {transform: rotate(-92deg);}
+.speed15  {transform: rotate(-90deg);}
+.speed16  {transform: rotate(-88deg);}
+.speed17  {transform: rotate(-86deg);}
+.speed18  {transform: rotate(-84deg);}
+.speed19  {transform: rotate(-82deg);}
+.speed20  {transform: rotate(-80deg);}
+.speed21  {transform: rotate(-78deg);}
+.speed22  {transform: rotate(-76deg);}
+.speed23  {transform: rotate(-74deg);}
+.speed24  {transform: rotate(-72deg);}
+.speed25  {transform: rotate(-70deg);}
+.speed26  {transform: rotate(-68deg);}
+.speed27  {transform: rotate(-66deg);}
+.speed28  {transform: rotate(-64deg);}
+.speed29  {transform: rotate(-62deg);}
+.speed30  {transform: rotate(-60deg);}
+.speed31  {transform: rotate(-58deg);}
+.speed32  {transform: rotate(-56deg);}
+.speed33  {transform: rotate(-54deg);}
+.speed34  {transform: rotate(-52deg);}
+.speed35  {transform: rotate(-50deg);}
+.speed36  {transform: rotate(-48deg);}
+.speed37  {transform: rotate(-46deg);}
+.speed38  {transform: rotate(-44deg);}
+.speed39  {transform: rotate(-42deg);}
+.speed40  {transform: rotate(-40deg);}
+.speed41  {transform: rotate(-38deg);}
+.speed42  {transform: rotate(-36deg);}
+.speed43  {transform: rotate(-34deg);}
+.speed44  {transform: rotate(-32deg);}
+.speed45  {transform: rotate(-30deg);}
+.speed46  {transform: rotate(-28deg);}
+.speed47  {transform: rotate(-26deg);}
+.speed48  {transform: rotate(-24deg);}
+.speed49  {transform: rotate(-22deg);}
+.speed50  {transform: rotate(-20deg);}
+.speed51  {transform: rotate(-18deg);}
+.speed52  {transform: rotate(-16deg);}
+.speed53  {transform: rotate(-14deg);}
+.speed54  {transform: rotate(-12deg);}
+.speed55  {transform: rotate(-10deg);}
+.speed56  {transform: rotate(-8deg);}
+.speed57  {transform: rotate(-6deg);}
+.speed58  {transform: rotate(-4deg);}
+.speed59  {transform: rotate(-2deg);}
+.speed60  {transform: rotate(0deg);}
+.speed61  {transform: rotate(2deg);}
+.speed62  {transform: rotate(4deg);}
+.speed63  {transform: rotate(6deg);}
+.speed64  {transform: rotate(8deg);}
+.speed65  {transform: rotate(10deg);}
+.speed66  {transform: rotate(12deg);}
+.speed67  {transform: rotate(14deg);}
+.speed68  {transform: rotate(16deg);}
+.speed69  {transform: rotate(18deg);}
+.speed70  {transform: rotate(20deg);}
+.speed71  {transform: rotate(22deg);}
+.speed72  {transform: rotate(24deg);}
+.speed73  {transform: rotate(26deg);}
+.speed74  {transform: rotate(28deg);}
+.speed75  {transform: rotate(30deg);}
+.speed76  {transform: rotate(32deg);}
+.speed77  {transform: rotate(34deg);}
+.speed78  {transform: rotate(36deg);}
+.speed79  {transform: rotate(38deg);}
+.speed80  {transform: rotate(40deg);}
+.speed81  {transform: rotate(42deg);}
+.speed82  {transform: rotate(44deg);}
+.speed83  {transform: rotate(46deg);}
+.speed84  {transform: rotate(48deg);}
+.speed85  {transform: rotate(50deg);}
+.speed86  {transform: rotate(52deg);}
+.speed87  {transform: rotate(54deg);}
+.speed88  {transform: rotate(56deg);}
+.speed89  {transform: rotate(58deg);}
+.speed90  {transform: rotate(60deg);}
+.speed91  {transform: rotate(62deg);}
+.speed92  {transform: rotate(64deg);}
+.speed93  {transform: rotate(66deg);}
+.speed94  {transform: rotate(68deg);}
+.speed95  {transform: rotate(70deg);}
+.speed96  {transform: rotate(72deg);}
+.speed97  {transform: rotate(74deg);}
+.speed98  {transform: rotate(76deg);}
+.speed99  {transform: rotate(78deg);}
+.speed100 {transform: rotate(80deg);}
+.speed101 {transform: rotate(82deg);}
+.speed102 {transform: rotate(84deg);}
+.speed103 {transform: rotate(86deg);}
+.speed104 {transform: rotate(88deg);}
+.speed105 {transform: rotate(90deg);}
+.speed106 {transform: rotate(92deg);}
+.speed107 {transform: rotate(94deg);}
+.speed108 {transform: rotate(96deg);}
+.speed109 {transform: rotate(98deg);}
+.speed110 {transform: rotate(100deg);}
+.speed111 {transform: rotate(102deg);}
+.speed112 {transform: rotate(104deg);}
+.speed113 {transform: rotate(106deg);}
+.speed114 {transform: rotate(108deg);}
+.speed115 {transform: rotate(110deg);}
+.speed116 {transform: rotate(112deg);}
+.speed117 {transform: rotate(114deg);}
+.speed118 {transform: rotate(116deg);}
+.speed119 {transform: rotate(118deg);}
+.speed120 {transform: rotate(120deg);}

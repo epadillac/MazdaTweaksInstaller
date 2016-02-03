@@ -1,0 +1,2 @@
+# Change speedometer graphics to blue too, because you selected blue custom infotainment color scheme!
+cp -a /mnt/sd*/config/speed-video-reboot/color/blue/* /jci/gui/addon-speedometer/

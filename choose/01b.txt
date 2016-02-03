@@ -1,0 +1,6 @@
+#! /bin/sh
+
+# don't remove lines 4 and 5
+echo 1 > /sys/class/gpio/Watchdog\ Disable/value
+mount -o rw,remount /
+

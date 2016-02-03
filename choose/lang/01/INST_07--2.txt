@@ -1,0 +1,2 @@
+; install "Semi-transparent parking sensor graphics"
+Semi-transparent parking sensor graphics will be installed. Good choice!

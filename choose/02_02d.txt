@@ -1,0 +1,4 @@
+# restore disclaimer time to 3,5 sec. and change order of the audio source list back to original
+rm -f /jci/gui/apps/system/js/systemApp.js.org
+cp -a /mnt/sd*/config_org/restore_audio_order_and_disclaimer/jci/gui/apps/system/js/systemApp.js /jci/gui/apps/system/js/
+

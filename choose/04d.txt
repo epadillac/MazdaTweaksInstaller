@@ -1,0 +1,13 @@
+# remove "Date_to_Statusbar_mod_by_diginix_v2"
+rm -f /jci/gui/common/controls/StatusBar/css/StatusBarCtrl.css.org
+cp -a /mnt/sd*/config_org/date-to-statusbar_mod/jci/gui/common/controls/StatusBar/css/StatusBarCtrl.css /jci/gui/common/controls/StatusBar/css/
+
+rm -f /jci/gui/common/controls/StatusBar/js/StatusBarCtrl.js.org
+cp -a /mnt/sd*/config_org/date-to-statusbar_mod/jci/gui/common/controls/StatusBar/js/StatusBarCtrl.js /jci/gui/common/controls/StatusBar/js/
+
+rm -f /jci/gui/common/images/icons/IcnSbRoaming.png.org
+cp -a /mnt/sd*/config_org/date-to-statusbar_mod/jci/gui/common/images/icons/IcnSbRoaming.png /jci/gui/common/images/icons/
+
+rm -f /jci/gui/framework/js/Utility.js.org
+cp -a /mnt/sd*/config_org/date-to-statusbar_mod/jci/gui/framework/js/Utility.js /jci/gui/framework/js/
+

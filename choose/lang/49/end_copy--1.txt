@@ -1,0 +1,7 @@
+###########################################################
+#                                                         #
+# Soll ich die Daten direkt auf einen USB Stick kopieren? #
+#                                                         #
+###########################################################
+.
+(Bitter vorher den USB Stick loeschen!)

@@ -1,0 +1,13 @@
+; restore disclaimer and audio source list
+########################################################
+####                                                ####
+####  Restore disclaimer time to normal (3,5 sec.)  ####
+####                                                ####
+####                 together with                  ####
+####                                                ####
+####     Change order of the audio source list      ####
+####               back to original                 ####
+####                                                ####
+#### (both in /jci/gui/apps/system/js/systemApp.js) ####
+####                                                ####
+########################################################

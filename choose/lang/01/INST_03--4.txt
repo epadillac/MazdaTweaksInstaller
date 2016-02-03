@@ -1,0 +1,10 @@
+; speed-video-reboot_tweak_mod_by_diginix
+########################################################
+####                                                ####
+####   [g]  german  version (km per hour)           ####
+####   [e]  english version (km per hour)           ####
+####   [m]  english version (miles per hour)        ####
+####                                                ####
+####   (reboot button is always visible)            ####
+####                                                ####
+########################################################

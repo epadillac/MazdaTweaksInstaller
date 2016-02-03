@@ -1,0 +1,10 @@
+; ready
+Please copy content of created folder
+.
+##############################################
+#                                            #
+#  _copy_content_to_root_of_fat32_usb_stick  #
+#                                            #
+##############################################
+.
+to USB drive.

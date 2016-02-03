@@ -1,0 +1,13 @@
+; test
+########################################################
+####                                                ####
+####  Individuelle Installations-Datei              ####
+####  nach Deiner Zusammenstellung erzeugt          ####
+####                                                ####
+####  Bitte den Inhalt auf einen USB Stick kopieren ####
+####  um die ausgewaehlten Tweaks zu installieren   ####
+####                                                ####
+########################################################
+.
+Du hast folgende Tweaks ausgewaehlt:
+------------------------------------

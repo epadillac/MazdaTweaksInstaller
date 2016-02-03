@@ -1,0 +1,4 @@
+; test
+Bitte fahre trotzdem weiterhin vorsichtig!
+.
+Waehrend der Deinstallation bitte die SD Karte im Auto lassen!

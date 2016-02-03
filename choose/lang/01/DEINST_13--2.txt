@@ -1,0 +1,4 @@
+; Remove "speedcam patch (for 56.00.230A)"
+Please drive carefully anyway!
+.
+Please remain SD card in car during deinstallation!

@@ -1,0 +1,2 @@
+; end install
+Semi-transparent parking sensor graphics

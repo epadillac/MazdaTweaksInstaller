@@ -1,0 +1,2 @@
+; install "speedcam patch (only for 56.00.230A)"
+Speedcam data only for Germany without mobile cameras will be installed.

@@ -1,0 +1,2 @@
+; enable "Media order patching"
+Your files should now be sorted alphabetically.

@@ -1,0 +1,2 @@
+; end install
+First, a full backup of the system will be copied to the SD Card!

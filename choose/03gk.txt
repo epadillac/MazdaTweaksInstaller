@@ -1,0 +1,50 @@
+# Speedo-Compass-Video_Tweak_by_diginix
+# Update to Waisky2’s addon-all-fixed-auto-install-v2
+# V3.0 - Initial
+# V3.2 - Removed temperatures that did not work right,
+#        added trip fuel economy which is based on cmu trip which does not correspond to speedometer trip <yet>,
+#        changed so all data is rounded which fixed smdb-read speed mismatch to cruse control
+#        enlarged direction text,
+#        cleaned up code
+# V3.21 - Changed metric display to L per 100km
+# V3.3 - Changes done by diginix:
+#        added unit under speedometer for mph or km/h
+#        replace dot with comma for L per 100km
+#        optimized speed indicator angles in css
+#        new graphics for rings, needle pointer, dial image with different layout for steps 5,10,20
+#        html and css cleanup
+#        some more layout tuning (e.g. text shadow)
+# V3.4   rotating compass added
+# V3.5   Heading deleted, Latitude & Longitude added
+
+cp -a /mnt/sd*/config/speed-video-reboot/kmh_ger/jci/opera/opera_dir/userjs/addon-startup.js /jci/opera/opera_dir/userjs/
+chmod 755 /jci/opera/opera_dir/userjs/addon-startup.js
+
+cp -a /mnt/sd*/config/speed-video-reboot/kmh_ger/jci/scripts/* /jci/scripts/
+chmod 755 /jci/scripts/stage_wifi.sh
+chmod 755 /jci/scripts/get-vehicle-speed.sh
+chmod 755 /jci/scripts/get-vehicle-data-other.sh
+chmod 755 /jci/scripts/get-log-data.sh
+chmod 755 /jci/scripts/get-gps-data.sh
+
+cp -a /mnt/sd*/config/speed-video-reboot/kmh_ger/jci/gui/addon-* /jci/gui/
+chmod 755 /jci/gui/addon-common/*.js
+chmod 755 /jci/gui/addon-speedometer/*.js
+chmod 755 /jci/gui/addon-player/*.js
+# Default versions of these to start up with. They get copied to rw location of /tmp/root on initialization
+chmod 666 /jci/gui/addon-player/myVideoList
+chmod 666 /jci/gui/addon-player/playback*
+chmod 755 /jci/gui/addon-player/playback-action.sh
+
+cp -a /mnt/sd*/config/bin/busybox-armv7l /bin/
+chmod 755 /bin/busybox-armv7l
+rm -f /usr/bin/nc
+ln -s /bin/busybox-armv7l /usr/bin/nc
+
+# change compass rotating depending on NAV SD card inside or not
+if [ ! e /mnt/sd_nav/content/speedcam ]
+    then
+        sed -i 's/.isNumeric(data) && data != lastGPSheadingValue) {/.isNumeric(data) \&\& data != lastGPSheadingValue \&\& speedValue) {/' /jci/gui/addon-speedometer/addon-speedometer.js
+        sed -i 's/rotate("+(-Math.abs(Math.round(data))+180)+"deg)");/rotate("+(-Math.round(data))+"deg)");/' /jci/gui/addon-speedometer/addon-speedometer.js
+fi
+

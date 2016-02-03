@@ -1,0 +1,2 @@
+; end deinstall
+Restore the safety warning label from the reverse camera

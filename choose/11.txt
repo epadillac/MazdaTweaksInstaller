@@ -1,0 +1,7 @@
+# media order patching
+if [ ! -e /jci/lib/libmc_user.so.org ]
+	then
+		cp -a /jci/lib/libmc_user.so /jci/lib/libmc_user.so.org
+fi
+cp -a /mnt/sd*/config/media-order-patching/jci/lib/libmc_user.so /jci/lib/
+

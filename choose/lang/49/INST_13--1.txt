@@ -1,0 +1,18 @@
+; test
+##############################################################
+####                                                      ####
+####        Speedcam Patch (nur fuer 56.00.230A)          ####
+####                                                      ####
+####                  Datenbanken fuer                    ####
+####              Europa oder Deutschland                 ####
+####                                                      ####
+####                   mit oder ohne                      ####
+####                   mobile Kameras                     ####
+####                                                      ####
+####  [n] Nicht installieren                              ####
+####  [1] Installieren f. Europa mit mobilen Kameras      ####
+####  [2] Installieren f. Europa ohne mobile Kameras      ####
+####  [3] Installieren f. Deutschland mit mobilen Kameras ####
+####  [4] Installieren f. Deutschland ohne mobile Kameras ####
+####                                                      ####
+##############################################################

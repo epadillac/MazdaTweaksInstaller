@@ -1,0 +1,13 @@
+; end install
+########################################################
+####                                                ####
+####  Build individual file for installation        ####
+####  according to your selection                   ####
+####                                                ####
+####  Please copy content to a USB drive            ####
+####  to install the selected tweaks                ####
+####                                                ####
+########################################################
+.
+You have choosen to install the following tweaks:
+-------------------------------------------------

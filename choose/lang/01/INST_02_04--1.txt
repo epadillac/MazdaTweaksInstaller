@@ -1,0 +1,2 @@
+; remove the blank album art frame
+Remove the blank album art frame?

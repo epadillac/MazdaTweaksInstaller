@@ -1,0 +1,2 @@
+; Restore the blank album art frame
+Restore the blank album art frame?

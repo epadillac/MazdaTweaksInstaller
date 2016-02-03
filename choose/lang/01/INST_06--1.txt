@@ -1,0 +1,2 @@
+; install "Pause on mute"
+Install "Pause on mute"?

@@ -1,0 +1,13 @@
+; end deinstall
+########################################################
+####                                                ####
+####  Build individual file for deinstallation      ####
+####  according to your selection                   ####
+####                                                ####
+####  Please copy content to a USB drive            ####
+####  to remove the selected tweaks                 ####
+####                                                ####
+########################################################
+.
+You have choosen to remove the following tweaks:
+-------------------------------------------------

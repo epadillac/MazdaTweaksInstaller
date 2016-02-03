@@ -1,0 +1,2 @@
+; install "No more disclaimer"
+Install "No more disclaimer"?

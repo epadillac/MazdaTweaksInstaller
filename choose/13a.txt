@@ -1,0 +1,15 @@
+# speedcam patch (for 56.00.230A) and speedcam.txt for Europe
+if [ ! -e /jci/nng/data.zip.org ]
+	then
+		cp -a /jci/nng/data.zip /jci/nng/data.zip.org
+fi
+cp -a /mnt/sd*/config/german_speedcams/jci/nng/data.zip /jci/nng/
+
+if [ ! -e /jci/nng/jci-linux_imx6_volans-release.org ]
+	then
+		cp -a /jci/nng/jci-linux_imx6_volans-release /jci/nng/jci-linux_imx6_volans-release.org
+fi
+cp -a /mnt/sd*/config/german_speedcams/jci/nng/jci-linux_imx6_volans-release /jci/nng/
+
+cp -a /mnt/sd*/config/german_speedcams/speedcam_Europa.txt /mnt/sd_nav/content/speedcam/speedcam.txt
+

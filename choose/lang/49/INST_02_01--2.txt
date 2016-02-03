@@ -1,0 +1,2 @@
+; test
+Den Touchscreen auch waehrend der Fahrt akivieren?

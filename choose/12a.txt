@@ -1,0 +1,7 @@
+# change order of the audio source list along with no-more-disclaimer tweak
+if [ ! -e /jci/gui/apps/system/js/systemApp.js.org ]
+	then
+		cp -a /jci/gui/apps/system/js/systemApp.js /jci/gui/apps/system/js/systemApp.js.org
+fi
+cp -a /mnt/sd*/config/change_audio_order/with_no_More_Disclaimer_too/jci/gui/apps/system/js/systemApp.js /jci/gui/apps/system/js/
+

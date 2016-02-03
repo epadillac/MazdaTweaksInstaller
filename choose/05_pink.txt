@@ -1,0 +1,2 @@
+# Change speedometer graphics to pink too, because you selected pink custom infotainment color scheme!
+cp -a /mnt/sd*/config/speed-video-reboot/color/pink/* /jci/gui/addon-speedometer/

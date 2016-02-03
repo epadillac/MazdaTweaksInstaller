@@ -1,0 +1,36 @@
+# remove "Speed-Video-Reboot"
+sed -i '/v3.2/d' /jci/scripts/stage_wifi.sh
+sed -i '/Removed requirement/d' /jci/scripts/stage_wifi.sh
+sed -i '/mount /d' /jci/scripts/stage_wifi.sh
+sed -i '/Added additional/d' /jci/scripts/stage_wifi.sh
+sed -i '/get-vehicle-speed/d' /jci/scripts/stage_wifi.sh
+sed -i '/get-vehicle-data-other/d' /jci/scripts/stage_wifi.sh
+sed -i '/get-gps-data/d' /jci/scripts/stage_wifi.sh
+sed -i '/Need to set defaults/d' /jci/scripts/stage_wifi.sh
+sed -i '/myVideoList /d' /jci/scripts/stage_wifi.sh
+sed -i '/playbackAction /d' /jci/scripts/stage_wifi.sh
+sed -i '/playbackOption /d' /jci/scripts/stage_wifi.sh
+sed -i '/playbackStatus /d' /jci/scripts/stage_wifi.sh
+sed -i '/playback/d' /jci/scripts/stage_wifi.sh
+sed -i '/myVideoList/d' /jci/scripts/stage_wifi.sh
+sed -i '/playback-action/d' /jci/scripts/stage_wifi.sh
+sed -i '/Video player action watch/d' /jci/scripts/stage_wifi.sh
+sed -i '/Log data collection/d' /jci/scripts/stage_wifi.sh
+sed -i '/get-log-data/d' /jci/scripts/stage_wifi.sh
+
+rm -fr /jci/gui/addon-common
+rm -fr /jci/gui/addon-player
+rm -fr /jci/gui/addon-speedometer
+
+rm -f /jci/opera/opera_dir/userjs/addon-startup.js*
+rm -f /jci/opera/opera_dir/userjs/speedometer*
+rm -f /jci/opera/opera_dir/userjs/mySpeedometer*
+mv /jci/opera/opera_dir/userjs/fps.js /jci/opera/opera_dir/userjs/fps.js.org
+
+rm -f /jci/scripts/get-gps-data*
+rm -f /jci/scripts/get-log-data*
+rm -f /jci/scripts/get-vehicle-data-other*
+rm -f /jci/scripts/get-vehicle-gear*
+rm -f /jci/scripts/get-vehicle-speed*
+rm -f /jci/scripts/stage_wifi.sh.bak?
+

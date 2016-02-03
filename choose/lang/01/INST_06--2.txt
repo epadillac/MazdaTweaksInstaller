@@ -1,0 +1,4 @@
+; install "Pause on mute"
+"Pause on mute" will be installed.
+.
+(Why has Mazda not managed this themselves?)

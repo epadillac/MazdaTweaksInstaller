@@ -1,0 +1,2 @@
+; end deinstall
+Restore the blank album art frame

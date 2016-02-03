@@ -1,0 +1,22 @@
+# remove speedcam patch (for 56.00.230A) and speedcam.txt
+rm -f /jci/nng/data.zip
+if [ -e /jci/nng/data.zip.org ]
+	then
+		mv /jci/nng/data.zip.org /jci/nng/data.zip
+	else
+		cp -a /mnt/sd*/config_org/german_speedcams/jci/nng/data.zip /jci/nng/
+fi
+chmod 755 /jci/nng/data.zip
+
+rm -f /jci/nng/jci-linux_imx6_volans-release
+if [ -e /jci/nng/jci-linux_imx6_volans-release.org ]
+	then
+		mv /jci/nng/jci-linux_imx6_volans-release.org /jci/nng/jci-linux_imx6_volans-release
+	else
+		cp -a /mnt/sd*/config_org/german_speedcams/jci/nng/jci-linux_imx6_volans-release /jci/nng/
+fi
+chmod 755 /jci/nng/jci-linux_imx6_volans-release
+
+rm -f /mnt/sd_nav/content/speedcam/speedcam.txt
+rm -f /mnt/sd_nav/content/speedcam/speedcam.spdb
+

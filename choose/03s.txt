@@ -1,0 +1,4 @@
+# enable only speedometer
+cp -a /mnt/sd*/config/speed-video-reboot/speedometer_only/jci/scripts/stage_wifi.sh /jci/scripts/
+cp -a /mnt/sd*/config/speed-video-reboot/speedometer_only/jci/opera/opera_dir/userjs/addon-startup.js /jci/opera/opera_dir/userjs/
+

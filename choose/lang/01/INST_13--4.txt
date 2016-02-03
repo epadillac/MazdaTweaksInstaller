@@ -1,0 +1,4 @@
+; install "speedcam patch (only for 56.00.230A)"
+Speedcam data for Europe with mobile cameras will be installed.
+.
+Please remain SD card in car during installation!

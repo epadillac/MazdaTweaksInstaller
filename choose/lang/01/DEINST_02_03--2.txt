@@ -1,0 +1,2 @@
+; Restore the safety warning label
+Annoying text at the bottom will be there again.

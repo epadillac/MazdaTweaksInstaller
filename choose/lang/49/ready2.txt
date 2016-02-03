@@ -1,0 +1,9 @@
+Bitte kopiere den Inhalt des Ordners
+.
+##############################################
+#                                            #
+#  _copy_content_to_root_of_fat32_usb_stick  #
+#                                            #
+##############################################
+.
+auf einen USB Stick.

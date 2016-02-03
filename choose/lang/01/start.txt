@@ -1,0 +1,11 @@
+; start
+       ####                                                             ####
+       ####                        Make a choice:                       ####
+       ####                                                             ####
+       ####  [1] Create USB drive f. installation                       ####
+       ####  [2] Create USB drive f. deinstallation                     ####
+       ####                                                             ####
+       ####  [3] Create USB drive for installation   with full backup   ####
+       ####  [4] Create USB drive for deinstallation with full backup   ####
+       ####                                                             ####
+       #####################################################################

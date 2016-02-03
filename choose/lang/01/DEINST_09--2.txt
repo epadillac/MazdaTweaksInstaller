@@ -1,0 +1,2 @@
+; Remove "main menu loop"
+No more jumps from left to right and vice versa.

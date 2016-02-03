@@ -1,0 +1,2 @@
+; Remove "improved list loop"
+No more jumps from the end to the beginning and vice versa.

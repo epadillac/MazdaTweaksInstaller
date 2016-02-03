@@ -1,0 +1,10 @@
+; test
+########################################################
+####                                                ####
+####   [d]  Deutsche Version (km pro Stunde)        ####
+####   [e]  Englisch Version (km pro Stunde)        ####
+####   [m]  Englisch Version (Meilen pro Stunde)    ####
+####                                                ####
+####   (Der Reboot Button ist immer sichtbar)       ####
+####                                                ####
+########################################################

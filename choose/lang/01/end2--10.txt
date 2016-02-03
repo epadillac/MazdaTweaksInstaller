@@ -1,0 +1,2 @@
+; end deinstall
+Remove "pause on mute"

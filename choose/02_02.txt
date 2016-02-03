@@ -1,0 +1,8 @@
+# reduce disclaimer time
+chmod 755 /jci/gui/apps/system/js/systemApp.js
+if [ ! -e /jci/gui/apps/system/js/systemApp.js.org ]
+	then
+		cp -a /jci/gui/apps/system/js/systemApp.js /jci/gui/apps/system/js/systemApp.js.org
+fi
+sed -i 's/this._disclaimerTime.remaining = 3500/this._disclaimerTime.remaining = 500/g' /jci/gui/apps/system/js/systemApp.js
+

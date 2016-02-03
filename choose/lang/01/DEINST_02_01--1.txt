@@ -1,0 +1,7 @@
+; deinstallation of tweaks master bunde (v55)
+########################################
+####                                ####
+####   Tweaks master bundle (v55)   ####
+####        Deinstallation          ####
+####                                ####
+########################################

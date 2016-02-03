@@ -1,0 +1,6 @@
+# change to english version with mph
+cp -a /mnt/sd*/config/speed-video-reboot/mph_eng/jci/gui/addon-speedometer/addon-speedometer.html /jci/gui/addon-speedometer/
+cp -a /mnt/sd*/config/speed-video-reboot/mph_eng/jci/gui/addon-speedometer/addon-speedometer.css /jci/gui/addon-speedometer/
+cp -a /mnt/sd*/config/speed-video-reboot/mph_eng/jci/gui/addon-speedometer/addon-speedometer.js /jci/gui/addon-speedometer/
+cp -a /mnt/sd*/config/speed-video-reboot/mph_eng/jci/gui/addon-speedometer/Ticks_Style04_mph.png /jci/gui/addon-speedometer/
+

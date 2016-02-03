@@ -1,0 +1,23 @@
+Header:
+X,Y,TYPE,SPEED,DIRTYPE,DIRECTION
+
+Field Description
+======+=============
+X | horizontal/longitude (E/W) coordinate
+Y | vertical/latitude (N/S) coordinate
+TYPE | Camera type:
+| 1 - Static camera,
+| 2 - Built in Traffic light,
+| 3 - Camera checking passing through red light,
+| 4 - Section camera,
+| 5 - Mobile camera
+SPEED | Speed limit
+DIRTYPE | Camera direction type:
+| 0 - all directions (full 360')
+| 1 - one direction (see DIRECTION field)
+| 2 - both directions (DIRECTION + the opposite direction)
+DIRECTION| Camera angle degree (between 0 and 359, 0 - North, 90 - East, 180 - South, 270 - West)
+
+SPECIAL DIRECTION
+-1 = all directions (360 degrees)
+camera angle +1000 = bidirectional camera (ex. 1090 = both direction East and West) 

@@ -1,0 +1,12 @@
+; deinstall "speed-Video-Reboot_Tweak_mod_by_diginix"
+########################################################
+####                                                ####
+####  Speed-Video-Reboot_Tweak_v3.4_mod_by_diginix  ####
+####                                                ####
+####               Deinstallation                   ####
+####                                                ####
+####              - Speedometer                     ####
+####              - Media player                    ####
+####              - Reboot button                   ####
+####                                                ####
+########################################################

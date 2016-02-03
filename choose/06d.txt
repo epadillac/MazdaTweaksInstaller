@@ -1,0 +1,4 @@
+# remove pause on mute
+rm -f /jci/gui/common/js/Common.js.org
+cp -a /mnt/sd*/config_org/pause-on-mute/jci/gui/common/js/Common.js /jci/gui/common/js/
+

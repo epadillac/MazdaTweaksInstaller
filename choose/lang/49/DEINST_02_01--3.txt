@@ -1,0 +1,2 @@
+; test
+Der Touchscreen ist nun waehrend der Fahrt wieder inaktiv.

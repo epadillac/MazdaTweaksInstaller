@@ -1,0 +1,2 @@
+; Remove semi-transparent parking sensor graphics
+Remove semi-transparent parking sensor graphics for the proximity sensors?

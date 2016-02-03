@@ -1,0 +1,5 @@
+# a window will appear for 10 seconds and then close automatically
+/jci/tools/jci-dialog --title="Deinstallation complete ..." --text="Selected tweaks removed" --ok-label='OK' --no-cancel &
+sleep 10
+killall jci-dialog
+

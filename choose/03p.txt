@@ -1,0 +1,3 @@
+# enable only media player
+cp -a /mnt/sd*/config/speed-video-reboot/mediaplayer_only/jci/opera/opera_dir/userjs/addon-startup.js /jci/opera/opera_dir/userjs/
+

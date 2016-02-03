@@ -1,0 +1,2 @@
+; enable touchscreen
+Touchscreen will be always enabled

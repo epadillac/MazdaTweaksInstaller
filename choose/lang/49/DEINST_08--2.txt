@@ -1,0 +1,2 @@
+; test
+Keine direkten Spruenge mehr vom Ende zum Anfang und umgekehrt.

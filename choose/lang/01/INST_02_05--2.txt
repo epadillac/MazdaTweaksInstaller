@@ -1,0 +1,2 @@
+; change to an individual background image
+(Please change file 'background.png' in folder 'config' before)

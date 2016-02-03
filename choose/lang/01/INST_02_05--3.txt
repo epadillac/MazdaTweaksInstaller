@@ -1,0 +1,2 @@
+; change to an individual background image
+The one from custom infotainment colors will be overwritten again!

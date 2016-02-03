@@ -1,0 +1,2 @@
+; test
+Den leeren Rahmen fuer das Album-Cover wieder einblenden?

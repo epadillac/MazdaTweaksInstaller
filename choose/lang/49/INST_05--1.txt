@@ -1,0 +1,11 @@
+; test
+#########################################
+####                                 ####
+####   Individuelle Farb Schemas     #### 
+####             inkl.               ####
+#### farblich passendem Hintergrund  ####
+####                                 ####
+####  Blau, Gruen, Orange, Pink      ####
+####  Lila, Silber, Gelb             ####
+####                                 ####
+#########################################

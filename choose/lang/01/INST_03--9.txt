@@ -1,0 +1,8 @@
+; speed-video-reboot_tweak_mod_by_diginix
+#######################################
+####                               ####
+####  [b] both                     ####
+####  [s] speedometer only         #### 
+####  [m] media player only        ####
+####                               ####
+#######################################

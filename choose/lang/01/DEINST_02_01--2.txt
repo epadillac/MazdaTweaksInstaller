@@ -1,0 +1,2 @@
+; disable touchscreen
+Disable the touchscreen while moving?

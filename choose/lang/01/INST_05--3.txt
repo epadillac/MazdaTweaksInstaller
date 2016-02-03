@@ -1,0 +1,2 @@
+; custom infotainment colors
+No! Please choose from 1 to 7 for color scheme!

@@ -1,0 +1,4 @@
+# remove safety warning from reverse camera for german and english (US)
+cp -a /mnt/sd*/config/safety-warning-reverse-camera/jci/nativegui/images/SafetyText_US_English.png /jci/nativegui/images/
+cp -a /mnt/sd*/config/safety-warning-reverse-camera/jci/nativegui/images/SafetyText_DE_German.png /jci/nativegui/images/
+

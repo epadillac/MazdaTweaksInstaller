@@ -1,0 +1,7 @@
+# pause on mute
+if [ ! -e /jci/gui/common/js/Common.js.org ]
+	then
+		cp -a /jci/gui/common/js/Common.js /jci/gui/common/js/Common.js.org
+fi
+cp -a /mnt/sd*/config/pause-on-mute/jci/gui/common/js/Common.js /jci/gui/common/js/
+

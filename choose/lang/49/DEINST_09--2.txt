@@ -1,0 +1,2 @@
+; test
+Keine direkten Spruenge mehr vom linken Rand nach rechts und umgekehrt.

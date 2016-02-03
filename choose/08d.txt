@@ -1,0 +1,4 @@
+# remove List_Loop_mod_by_diginix
+rm -f /jci/gui/common/controls/List2/js/List2Ctrl.js.org
+cp -a /mnt/sd*/config_org/list-loop/jci/gui/common/controls/List2/js/List2Ctrl.js /jci/gui/common/controls/List2/js/
+

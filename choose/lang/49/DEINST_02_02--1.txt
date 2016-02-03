@@ -1,0 +1,13 @@
+; test
+############################################################
+####                                                    ####
+####  Disclaimer Zeit wieder auf 3,5 Sek. zuruecksetzen ####
+####                                                    ####
+####                   zusammen mit                     ####
+####                                                    ####
+####   Aendern der Reihenfolge der Audio Quell Liste    ####
+####          zurueck zur Original-Reihenfolge          ####
+####                                                    ####
+####  (beides in /jci/gui/apps/system/js/systemApp.js)  ####
+####                                                    ####
+############################################################

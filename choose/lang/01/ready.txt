@@ -1,0 +1,2 @@
+; ready
+All files copied, the USB drive can be removed now.

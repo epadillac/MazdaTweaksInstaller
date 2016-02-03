@@ -1,0 +1,4 @@
+# restore blank album art frame
+cp  -a /mnt/sd*/config_org/restore-blank-album-art-frame/jci/gui/common/controls/InCall2/images/NowPlayingImageFrame.png /jci/gui/common/controls/InCall2/images/
+cp  -a /mnt/sd*/config_org/restore-blank-album-art-frame/jci/gui/common/controls/NowPlaying4/images/NowPlayingImageFrame.png /jci/gui/common/controls/NowPlaying4/images/
+

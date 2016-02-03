@@ -1,0 +1,2 @@
+; test
+Der Disclaimer wird nur noch 0.5 Sekunden, statt 3.5 Sekunden eingeblendet.

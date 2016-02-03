@@ -1,0 +1,2 @@
+; end deinstall
+Remove speedcam patch (for 56.00.230A)
