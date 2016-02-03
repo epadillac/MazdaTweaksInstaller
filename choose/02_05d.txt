@@ -1,3 +1,3 @@
 # restore background image to original
 cp -a /mnt/sd*/config_org/background.png /jci/gui/common/images/
-
+cp -a /mnt/sd*/config_org/no_artwork_icon.png /jci/gui/common/images/
